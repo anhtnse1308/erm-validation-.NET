@@ -1,0 +1,5 @@
+"\\172.16.1.12\Software\Huyền duoc\1. To BHYT\1. FileDanhMucThuocKoHSD.xlsx"
+"C:\Users\Admin\Desktop\EMRValidation OLD\DATA\Danh mục DVKT yêu cầu bắt buộc phải gửi kèm mã máy thực hiện.xlsx"
+"\\172.16.1.12\Software\Huyền duoc\1. To BHYT\VTYT đi kèm DVKT cần kê.xlsx"
+"C:\Users\Admin\Desktop\EMRValidation OLD\DATA\DVKT có yc ICD.xlsx"
+"D:\!BAOCAO_HIS\Daily-XML130-LUU\T112026\20261114\14-11-2026-S.xlsx"

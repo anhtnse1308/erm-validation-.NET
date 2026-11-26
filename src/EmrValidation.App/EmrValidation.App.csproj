@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>EmrValidation.App</RootNamespace>
+    <AssemblyName>EMRV</AssemblyName>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="PATH_CHECK_XML.sample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PATH_CHECK_XML_BQP.sample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmrValidation.Core\EmrValidation.Core.csproj" />
+    <ProjectReference Include="..\EmrValidation.Excel\EmrValidation.Excel.csproj" />
+    <ProjectReference Include="..\EmrValidation.Rules\EmrValidation.Rules.csproj" />
+  </ItemGroup>
+
+</Project>

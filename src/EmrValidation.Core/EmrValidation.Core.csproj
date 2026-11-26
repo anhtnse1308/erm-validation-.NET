@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>EmrValidation.Core</RootNamespace>
+    <AssemblyName>EmrValidation.Core</AssemblyName>
+    <Description>Model XML BHYT (XML1-XML14), hàm parse và lớp nền cho rule giám định.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Numerics" />
+  </ItemGroup>
+
+</Project>

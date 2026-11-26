@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>EmrValidation.Rules</RootNamespace>
+    <AssemblyName>EmrValidation.Rules</AssemblyName>
+    <Description>Rule giám định, loader danh mục và các luồng kiểm tra (Đợt 2 và 3).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmrValidation.Core\EmrValidation.Core.csproj" />
+    <ProjectReference Include="..\EmrValidation.Excel\EmrValidation.Excel.csproj" />
+  </ItemGroup>
+
+</Project>

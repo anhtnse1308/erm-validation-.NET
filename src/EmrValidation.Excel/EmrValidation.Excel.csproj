@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <RootNamespace>EmrValidation.Excel</RootNamespace>
+    <AssemblyName>EmrValidation.Excel</AssemblyName>
+    <Description>Đọc file Excel BHYT và ghi báo cáo (log text/JSON, Excel) bằng ClosedXML.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmrValidation.Core\EmrValidation.Core.csproj" />
+  </ItemGroup>
+
+</Project>
